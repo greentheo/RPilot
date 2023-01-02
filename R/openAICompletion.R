@@ -10,7 +10,7 @@ openAICompletion = function(echo=T){
 
   response = POST(url = "https://api.openai.com/v1/completions",
                   add_headers(`Content-Type` = "application/json",
-                              Authorization = "Bearer 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"),
+                              Authorization = "Bearer your-token-goes-here"),
                   body = toJSON(request)
   )
   print(response)
