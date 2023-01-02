@@ -1,0 +1,4 @@
+Name: openAICompletion
+Description: pings the openAI completion service and replaces higlighted text.
+Binding: openAICompletion
+Interactive: true
